@@ -1,4 +1,4 @@
-int trigPin = 4;
+int trigPin = 3;
 int echoPin = 2;
 void setup() {
   pinMode(trigPin, OUTPUT);
