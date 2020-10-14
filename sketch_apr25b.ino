@@ -14,7 +14,7 @@ void loop() {
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2)*0.034;
-  if(distance >= 200 || distance <= 0)
+  if(distance >= 200 || distance < 0)
   { 
     Serial.println("Out of range");
   }
